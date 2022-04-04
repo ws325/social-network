@@ -1,0 +1,21 @@
+
+.layout {
+    display: grid;
+    grid-template-columns: auto 200px 800px 200px auto;
+    grid-template-rows: auto;
+    grid-template-areas: "left-col main right-col";
+    padding: 16px 16px 0px;
+}
+
+.left-col {
+    grid-area: left-col;
+}
+
+.right-col {
+    grid-area: right-col;
+}
+
+.main {
+    grid-area: main;
+    padding: 32px;
+}
